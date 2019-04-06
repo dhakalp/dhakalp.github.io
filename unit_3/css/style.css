@@ -1,0 +1,22 @@
+body {
+    background-color: #444444;
+}
+
+h1, body {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+ul {
+    width: 20%;
+    margin: auto;
+    text-align: left;
+}
+
+#slogan {
+    font-style: italic;
+}
+
+a {
+    color: #d7e8f2;
+}
