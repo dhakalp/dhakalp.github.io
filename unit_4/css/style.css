@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Rokkitt');
+
 body {
     background-color: #444444;
 }
@@ -13,15 +15,18 @@ ul {
     text-align: left;
 }
 
-/*ul {*/
-    /*text-align: center;*/
-    /*list-style-type: none;*/
-/*}*/
-
 #slogan {
     font-style: italic;
 }
 
 a {
     color: #d7e8f2;
+}
+
+h1, #slogan {
+    font-family: 'Bree Serif', serif;
+}
+
+p, body, footer {
+    font-family: 'Rokkitt', serif;
 }
