@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Rokkitt');
+
+body {
+    background-color: #444444;
+}
+
+h1, body {
+    color: black;
+    text-align: center;
+}
+
+ul {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+}
+
+#slogan {
+    font-style: italic;
+}
+
+a {
+    color: blue;
+}
+
+h1, #slogan {
+    font-family: 'Bree Serif', serif;
+}
+
+p, body, footer {
+    font-family: 'Rokkitt', serif;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div, section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
