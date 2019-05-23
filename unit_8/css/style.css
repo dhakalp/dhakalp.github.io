@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Rokkitt');
+
+header {
+    background-image: url("../images/header_mtn.jpg");
+    /*margin: 0em;*/
+    padding: 3em;
+}
+
+
+body {
+    background-color: white;
+}
+
+h1, body {
+    color: black;
+    text-align: center;
+}
+
+ul {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1em;
+    padding: 0em;
+}
+
+#slogan {
+    font-style: italic;
+    font-size: 1.5em;
+    line-height: 0.5em;
+}
+
+a {
+    color: blue;
+}
+
+h1, #slogan {
+    font-family: 'Bree Serif', serif;
+}
+
+p, body, footer {
+    font-family: 'Rokkitt', serif;
+}
+
+nav {
+    /*padding: 3em;*/
+    font-size: 2em;
+    padding: 0.5em 0 0 0;
+}
+
+aside {
+    padding: 2em;
+    /*text-align: left;*/
+}
+
+article {
+    padding: 2em;
+}
+
+footer {
+    padding: 2em;
+}
+
+div, section {
+    padding: 2em;
+}
+
+.wrapper {
+    padding: 0em;
+}
+
+#our_services {
+    padding: 2em;
+}
+
+#services {
+    padding: 0em;
+    float: left;
+    width: 55%;
+}
+
+#extras {
+    /*padding: 20px;*/
+    float: right;
+    width: 35%;
+    line-height: 3em;
+}
+
+#extras_list {
+    list-style: none;
+}
+
+#my_intro {
+    padding: 1em;
+    float: left;
+    width: 45%;
+}
+
+#my_pics {
+    padding: 2em;
+    /*margin: 20em;*/
+    float: right;
+    width: 45%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
