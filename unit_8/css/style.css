@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Rokkitt');
 
 header {
-    background-image: url("../images/header_mtn.jpg");
-    /*margin: 0em;*/
-    padding: 3em;
+    padding: 1em;
 }
 
 
@@ -17,7 +15,7 @@ h1, body {
 }
 
 ul {
-    width: 30%;
+    /*width: 30%;*/
     margin: auto;
     text-align: left;
 }
@@ -31,7 +29,6 @@ h1 {
 #slogan {
     font-style: italic;
     font-size: 1.5em;
-    line-height: 0.5em;
 }
 
 a {
@@ -47,14 +44,12 @@ p, body, footer {
 }
 
 nav {
-    /*padding: 3em;*/
     font-size: 2em;
-    padding: 0.5em 0 0 0;
+    padding: 0 0 0 0;
 }
 
 aside {
     padding: 2em;
-    /*text-align: left;*/
 }
 
 article {
@@ -66,27 +61,23 @@ footer {
 }
 
 div, section {
-    padding: 2em;
+    padding: 0;
 }
 
 .wrapper {
     padding: 0em;
 }
 
-#our_services {
-    padding: 2em;
-}
 
 #services {
-    padding: 0em;
+    padding: 0;
     float: left;
     width: 55%;
 }
 
 #extras {
-    /*padding: 20px;*/
     float: right;
-    width: 35%;
+    width: 20%;
     line-height: 3em;
 }
 
@@ -95,14 +86,13 @@ div, section {
 }
 
 #my_intro {
-    padding: 1em;
+    /*padding: 1em;*/
     float: left;
     width: 45%;
 }
 
 #my_pics {
-    padding: 2em;
-    /*margin: 20em;*/
+    /*padding: 2em;*/
     float: right;
     width: 45%;
 }
@@ -114,4 +104,43 @@ div, section {
     content: " ";
     clear: both;
     height: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    float: none;
+  }
+  nav a {
+      margin: .5em;
+  }
+
+  img {
+  	width: 320px;
+  }
+
+  section {
+  	padding: 0;
+    margin: 0;
+    width: 80%;
+    font-size: 1.4em;
+  	line-height: 1.8em;
+  }
+
+  #services, #my_intro, #my_pics {
+    padding: 0;
+    float: none;
+    width: 100%;
+  }
+
+  #extras {
+    float: none;
+    width: 100%;
+    line-height: 3em;
+  }
+
+  #extras_list {
+      list-style: none;
+      display: block;
+  }
+
 }
